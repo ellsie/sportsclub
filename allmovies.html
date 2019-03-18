@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sao Paulo Movie Store</title>
+    <style>
+        .logo {
+            text-align: center;
+            background-image: url(img/bg.jpg);
+        }
+        .main-nav {
+            text-align: center;
+             background-image: url(img/bg.jpg);
+        }
+        section {
+            float: left;
+            width: 45%;
+            height: 80%;
+        }
+        }
+        aside {
+            float: right;
+            width: 45%;
+            height: 80%;
+        }
+        footer {
+            text-align: center;
+            background-color: aquamarine;
+            float: down;
+            width: auto;
+            height: 20%;
+        }
+    </style>
+</head>
+
+
+<body class="movie">
+    <header>
+        <h2 class="logo">
+            <a href="index.html">
+                <img src="img/logo.JPG">
+            </a>
+        </h2>
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allmovies.html">All Movies</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="yield">
+        <div class="alert label">
+            This page is a mock-up. The data is hard-coded.
+        </div>
+        <main>
+            <section>
+                <h1>Inside Out</h1>
+                <article class='movie-info-'>
+                    <a href='allmovies.html'>
+                        <img title="Inside Out" alt="Poster for Inside Out" src="img/Inside_Out_(2015_film)_poster.jpg" >
+                    </a>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto commodi deserunt ea et temporibus. Ab amet, assumenda consequuntur eveniet exercitationem in laborum libero modi nisi reprehenderit totam ut vel voluptatibus.</p>
+                        <span class="price"><del>$19.99</del> $14.99</span>
+                        <ul>
+                            <li><b>Year:</b> 2015</li>
+                            <li><b>Duration:</b> 106 min</li>
+                            <li><b>Language:</b> English</li>
+                            <li><b>Genres:</b> Action, Comedy</li>
+                            <li><b>Actors:</b> Melissa Golden, Mario Bishop, Gabrielle Grimes, Damion Lowe</li>
+                            <li><b>Director:</b> John Doe</li>
+                        </ul>
+                    </div>
+                </article>
+                <div class="rental">
+                    <a href="#rental-dialog" class="rent-now button">Rent Now</a>
+                    <div id='rental-dialog'>
+                    </div>
+                </div>
+                <div class="photo-gallery">
+                    <ul class="photos-list">
+                        <li><img src="img/Inside_Out_anger.jpg" width="90px"></li>
+                        <li><img src="img/Inside_Out_joy.jpg"
+                        width="90px"></li>
+                        <li><img src="img/Inside_Out_Sadness.jpg" width="90px"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div class="related-movies">
+                <h2>Related Movies</h2>
+                <ul>
+                    <li>
+                        <a href='movie.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="Spy" alt="Poster for Spy" src="img/spy.jpg">
+                                <figcaption>Spy</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='allmovies.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="Tomorrowland" alt="Poster for Tomorrowland" src="img/Tomorrowland.jpg" />
+                                <figcaption>Tomorrowland</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='movie.html' class='movie-cover-link'>
+                            <figure class='movie-cover'>
+                                <img title="Minions" alt="Poster for Minions" src="img/minions.jpg" />
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer-help">
+            <div class="contact">
+                <h4>Contact Us</h4> Get in touch here if you have any queries or issues.
+            </div>
+            <div class="support">
+                <h4>Help & Support</h4> Click here for FAQs, order information, T&Cs, errata and code downloads.
+            </div>
+            <div class="newsletter">
+                <h4>Alerts & Offers</h4> Sign up to our emails for regular updates and exclusive discounts.
+                <form>
+                    <input type='email' placeholder='Enter your email address'>
+                    <input type='submit' value='subscribe'>
+                </form>
+            </div>
+            <div class="search">
+                <h4>Search Movies</h4>
+                <form>
+                    <input type='text' placeholder='Movie name, year, actors'>
+                    <input type='submit' value='search'>
+                </form>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href='#top'>⬆ Back to Top.</a>
+        </div>
+        <div class="copyright">
+            &copy; 2015. São Paulo Movie Store.
+        </div>
+        <div class="footer-nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allmovies.html">All Movies</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

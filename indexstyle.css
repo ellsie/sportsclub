@@ -1,0 +1,15 @@
+.movie-info- {
+    background-color: azure;
+    float: right;
+    width: 55%;
+   
+}
+.photo-gallery {
+    background-color: aquamarine;
+    float: left;
+    width: 30%;
+}
+footer {
+    text-align: center;
+    
+}
